@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Destinos | Destino360</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DESTINO360</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="destinos.html" class="active">DESTINOS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="detalle.html">DETALLE DEL DESTINO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="layout-destinos">
+        <aside class="sidebar">
+            <div class="search-bar">
+                <input type="text" placeholder="BUSCAR">
+                <button style="border:none; background:none; cursor:pointer;"><i class="fas fa-search"></i></button>
+            </div>
+            <ul>
+                <li class="filter-btn" data-filter="montañas">Montañas <i class="fas fa-caret-right"></i></li>
+                <li class="filter-btn" data-filter="playas">Playas <i class="fas fa-caret-right"></i></li>
+                <li class="filter-btn" data-filter="templos">Templos <i class="fas fa-caret-right"></i></li>
+                <li class="filter-btn" data-filter="ciudades">Ciudades <i class="fas fa-caret-right"></i></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <h2 class="section-title" style="text-align: left; margin-top: 0; margin-bottom: 20px;">DESTINOS</h2>
+            <div class="grid-container">
+                
+                <div class="card-destino" data-category="ciudades" data-name="Japón">
+                    <img src="img/japan.png" alt="Japón">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="montañas" data-name="Jinan Park">
+                    <img src="img/jinan-park.png" alt="Jinan Park">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="ciudades" data-name="Pueblo (Village)">
+                    <img src="img/village.png" alt="Village">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="templos" data-name="India (Taj Mahal)">
+                    <img src="img/india.png" alt="India Taj Mahal">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="ciudades" data-name="Inglaterra">
+                    <img src="img/england.png" alt="Inglaterra">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="ciudades" data-name="Corea">
+                    <img src="img/corea.png" alt="Corea">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="ciudades" data-name="Colombia">
+                    <img src="img/colombia.png" alt="Colombia">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="ciudades" data-name="Italia">
+                    <img src="img/italy.png" alt="Italia">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+                
+                <div class="card-destino" data-category="playas" data-name="Estados Unidos">
+                    <img src="img/estados-unidos.png" alt="Estados Unidos">
+                    <div class="card-info"><a href="detalle.html">ver más</a></div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-info"><h4>DESTINO360</h4><p>Explora. Viaja. Vive.</p></div>
+        <div class="footer-info"><h4>Contacto</h4><p>info@destino360.com</p></div>
+        <div class="footer-info"><h4>Síguenos</h4><div class="social-icons"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div>
+        <p>&copy; 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

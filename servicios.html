@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicios | Destino360</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DESTINO360</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="destinos.html">DESTINOS</a></li>
+                <li><a href="servicios.html" class="active">SERVICIOS</a></li>
+                <li><a href="detalle.html">DETALLE DEL DESTINO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Usamos la imagen de "Estados Unidos" o "Hero" si no tienes una del barco -->
+    <section class="hero" style="background-image: url('img/hero_destino.jpg'); justify-content: center; text-align: center;">
+        <div class="hero-content">
+            <p style="font-size: 14px; letter-spacing: 2px;">TODO LO QUE NECESITAS PARA TU VIAJE</p>
+            <h1>NUESTROS SERVICIOS</h1>
+            <p>Te acompañamos en cada etapa de tu aventura con soluciones completas, seguras y personalizadas.</p>
+        </div>
+    </section>
+
+    <div class="grid-container" style="margin-top: 40px;">
+        <div class="card-destino">
+            <img src="img/alojamiento.jpg" alt="Alojamiento">
+            <div class="card-info">
+                <h3><i class="fas fa-bed"></i> Alojamiento</h3>
+                <p>Hoteles y alojamientos cómodos en los mejores destinos.</p>
+                <a href="#" style="margin-top:10px; display:block; color:var(--primary-blue);">VER MÁS &rarr;</a>
+            </div>
+        </div>
+        <div class="card-destino">
+            <img src="img/transporte.jpeg" alt="Transporte">
+            <div class="card-info">
+                <h3><i class="fas fa-bus"></i> Transporte</h3>
+                <p>Traslados seguros y cómodos dentro y entre destinos.</p>
+                <a href="#" style="margin-top:10px; display:block; color:var(--primary-blue);">VER MÁS &rarr;</a>
+            </div>
+        </div>
+        <div class="card-destino">
+            <img src="img/tour-y-actividades.jpg" alt="Tours">
+            <div class="card-info">
+                <h3><i class="fas fa-map-marked-alt"></i> Tours y actividades</h3>
+                <p>Experiencias únicas para conocer cada destino.</p>
+                <a href="#" style="margin-top:10px; display:block; color:var(--primary-blue);">VER MÁS &rarr;</a>
+            </div>
+        </div>
+        <div class="card-destino">
+            <img src="img/atencion-al-viajero.jpeg" alt="Asistencia">
+            <div class="card-info">
+                <h3><i class="fas fa-shield-alt"></i> Asistencia al viajero</h3>
+                <p>Viaja con tranquilidad, nosotros te respaldamos.</p>
+                <a href="#" style="margin-top:10px; display:block; color:var(--primary-blue);">VER MÁS &rarr;</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="services-section" style="background: white;">
+        <h2 class="section-title" style="text-align: left;">¿POR QUÉ ELEGIRNOS?<br><span style="font-size: 18px; font-weight: 400; text-transform: none;">TU VIAJE, NUESTRA PRIORIDAD</span></h2>
+        
+        <div class="grid-servicios" style="text-align: left; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <div>
+                <i class="fas fa-star" style="color: var(--primary-blue); font-size: 24px; margin-bottom: 10px;"></i>
+                <h4>Experiencia</h4>
+                <p style="font-size: 12px; color: #666;">Años creando viajes inolvidables.</p>
+            </div>
+            <div>
+                <i class="fas fa-user-check" style="color: var(--primary-blue); font-size: 24px; margin-bottom: 10px;"></i>
+                <h4>Atención personalizada</h4>
+                <p style="font-size: 12px; color: #666;">Te asesoramos en cada paso.</p>
+            </div>
+            <div>
+                <i class="fas fa-lock" style="color: var(--primary-blue); font-size: 24px; margin-bottom: 10px;"></i>
+                <h4>Seguridad</h4>
+                <p style="font-size: 12px; color: #666;">Proveedores confiables y viajes seguros.</p>
+            </div>
+            <div>
+                <i class="fas fa-globe" style="color: var(--primary-blue); font-size: 24px; margin-bottom: 10px;"></i>
+                <h4>Destinos únicos</h4>
+                <p style="font-size: 12px; color: #666;">Experiencias auténticas en lugares increíbles.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info"><h4>DESTINO360</h4><p>Explora. Viaja. Vive.</p></div>
+        <div class="footer-info"><h4>Contacto</h4><p>info@destino360.com</p></div>
+        <div class="footer-info"><h4>Síguenos</h4><div class="social-icons"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div>
+        <p>&copy; 2026</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
